@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import xgboost as xgb
-from scipy.stats.stats import pearsonr
+from scipy.stats import pearsonr
 from sklearn.metrics import f1_score, roc_auc_score
 from pylab import cm
 
@@ -264,7 +264,10 @@ def plot_baseline_comparison(args, eval_results, concept_groups, save_dir_plots)
         elif "agents_info" in group:
             labels = [r"$R_{a}$", r"$\theta_{a}$"]
         elif "target_info" in group:
-            labels = [r"$R_{t}$", r"$\theta_{t}$", r"$Visible_{t}$"]
+            if task=="objectnav":
+                labels = [r"$R_{t}$", r"$\theta_{t}$", r"$Visible_{t}$"]
+            else:
+                labels = [r"$R_{t}$", r"$\theta_{t}$"]
         elif "visited" in group:
             labels = [r"${l}$", r"${lr}$", r"${lrh}$"]
 
