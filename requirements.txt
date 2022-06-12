@@ -1,0 +1,30 @@
+black==22.3.0
+click==8.1.3
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1653061851209/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cycler==0.11.0
+fonttools==4.33.3
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1633637554808/work
+kiwisolver==1.4.2
+llvmlite==0.38.1
+matplotlib==3.5.2
+mypy-extensions==0.4.3
+numba @ file:///home/conda/feedstock_root/build_artifacts/numba_1652226546377/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1649806320849/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+pandas==1.4.2
+pathspec==0.9.0
+Pillow==9.1.1
+platformdirs==2.5.2
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1652235407899/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1647961439546/work
+scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1652976692230/work
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1653073872310/work
+shap @ file:///home/conda/feedstock_root/build_artifacts/shap_1642343967492/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+slicer @ file:///home/conda/feedstock_root/build_artifacts/slicer_1608146800664/work
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1643647933166/work
+tomli==2.0.1
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1649051611147/work
+xgboost==1.5.1
