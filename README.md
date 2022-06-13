@@ -16,11 +16,13 @@ The navigation agents were trained using <a href=https://allenact.org/>AllenAct<
 If you find this project useful in your research, please consider citing:
 
 ```
-   @InProceedings{dwivedi2022navigation_interpretability,
-    title = {What do navigation agents learn about their environment?},
-    author = {Kshitij Dwivedi, Gemma Roig, Aniruddh Kembhavi, Roozbeh Mottaghi},
-    booktitle = {CVPR},
-    year = {2022},
+   @InProceedings{Dwivedi_2022_CVPR,
+    author    = {Dwivedi, Kshitij and Roig, Gemma and Kembhavi, Aniruddha and Mottaghi, Roozbeh},
+    title     = {What Do Navigation Agents Learn About Their Environment?},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {10276-10285}
     }
 ```
 
@@ -55,7 +57,7 @@ pip install -r requirements.txt
 ```
 ## 📊 Dataset
 
-Please download the dataset from <a href="https://kshitijd20.github.io/navigation_interpretability/">here</a>. Then unzip it inside data directory
+Please download the dataset from <a href="https://www.dropbox.com/s/972h71btwoe74pk/trajectory_dataset.zip?dl=0">here</a>. Then unzip it inside data directory
 
 ## Concept Prediction
 Run the following script to evaluate how well concepts can be predicted by trained agent (Resnet-objectnav) and compare it to corresponding untrained baseline
@@ -86,7 +88,7 @@ python get_topk_neurons.py --model resnet --task objectnav --concept reachable_R
 refer to columns of ```data/trajectory_dataset/train/objectnav_ithor_default_resnet_pretrained/metadata.pkl``` file. 
 </details>
 
-The script will generate SHAP beeswarm plot for the concept and save it in ```results/task/model/shap_plots``` directory.
+The script will generate <a href= https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/beeswarm.html>SHAP beeswarm plot</a> for the concept and save it in ```results/task/model/shap_plots``` directory.
 
 ## Acknowledgements
 We thank the <a href = https://github.com/slundberg/shap>SHAP</a> authors for easy to use code and <a href = https://github.com/allenai/manipulathor>ManipulaThor</a> authors for Readme template.
