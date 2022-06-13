@@ -16,14 +16,14 @@ The navigation agents were trained using <a href=https://allenact.org/>AllenAct<
 If you find this project useful in your research, please consider citing:
 
 ```
-   @InProceedings{Dwivedi_2022_CVPR,
+@InProceedings{Dwivedi_2022_CVPR,
     author    = {Dwivedi, Kshitij and Roig, Gemma and Kembhavi, Aniruddha and Mottaghi, Roozbeh},
     title     = {What Do Navigation Agents Learn About Their Environment?},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2022},
     pages     = {10276-10285}
-    }
+}
 ```
 
 ### Contents
